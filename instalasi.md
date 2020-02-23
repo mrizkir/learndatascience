@@ -7,3 +7,6 @@
 4. Pada pilihan **Install for**, pilih **Just Me (Recommended)**, tekan tombol Next
 5. Pada Choose Install Location, biarkan default, klik tombol Next
 6. Pada **Advanced Option**, ceklist **Register Anaconda as my defaul python 3.7**. klik tombol Install
+
+## MacOS
+
