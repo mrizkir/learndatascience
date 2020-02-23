@@ -17,3 +17,5 @@ Seperti di bahasa pemrograman lain, Python juga memiliki aturan penamaan variabe
   * *Case sensitive*
   * Tidak boleh menggunakan kata-kata yang sudah dimiliki oleh Python, karena Python menggunakannya untuk hal yang lainnya.
   * Panjang variabel bisa berapa pun.
+  
+Dalam membuat nama sebuah variabel,  pilihlah yang memiliki makna. Hindari menggunakan singkatan karena bila bekerja dengan tim, anggota lain akan kebingungan membaca kode. Konsisten dalam penamaan apakah menggunakan gaya [Camel](https://en.wikipedia.org/wiki/Camel_case) atau [Snake](https://en.wikipedia.org/wiki/Snake_case). Pada kasus-kasus yang khusus gunakan *underscore* diawal nama variabel.
