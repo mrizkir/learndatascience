@@ -3,6 +3,6 @@ Materi Pembelajaran Data Science ini menggunakan bahasa pemrograman Python versi
 
 1. Instalasi Python dan Jupyter 
 2. Week 1
-  1. Variable
-  2. Data Type
-  3. List
+  i. Variable
+  ii. Data Type
+  iii. List
