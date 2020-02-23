@@ -13,5 +13,7 @@ bmi = weight / height ** 2
 print(bmi)
 ```
 Seperti di bahasa pemrograman lain, Python juga memiliki aturan penamaan variabel seperti berikut :
-A. Harus dimulai dengan huruf (a – z, A – Z) atau *underscrore*. Karakter selanjutnya bisa berupa huruf atau angka atau *underscrore*.
-B. Case sensitive
+  * Harus dimulai dengan huruf (a – z, A – Z) atau *underscore*. Karakter selanjutnya bisa berupa huruf atau angka atau *underscore*.
+  * *Case sensitive*
+  * Tidak boleh menggunakan kata-kata yang sudah dimiliki oleh Python, karena Python menggunakannya untuk hal yang lainnya.
+  * Panjang variabel bisa berapa pun.
