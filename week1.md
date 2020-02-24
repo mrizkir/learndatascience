@@ -61,3 +61,9 @@ Seorang *data scientist*, akan berhubungan dengan banyak poin data; sebagai cont
 family = [1.73,1.68,1.71,1.89]	
 print(family)
 ```
+Nilai atau elemen dalam satu List bisa memiliki beberapa macam tipe data, seperti float, integer, boolean,  string; atau yang lebih lanjutnya bisa menyimpan List lain, seperti contoh Kode 1.3.
+#### Contoh Kode 1.3
+```python
+family = [1.73,1.68,1.71,1.89]	
+print(family)
+```
