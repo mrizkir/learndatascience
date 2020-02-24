@@ -18,7 +18,8 @@ Seperti di bahasa pemrograman lain, Python juga memiliki aturan penamaan variabe
   * Tidak boleh menggunakan kata-kata yang sudah dimiliki oleh Python, karena Python menggunakannya untuk hal yang lainnya.
   * Panjang variabel bisa berapa pun.
   
-Dalam membuat nama sebuah variabel,  pilihlah yang memiliki makna. Hindari menggunakan singkatan karena bila bekerja dengan tim, anggota lain akan kebingungan membaca kode. Konsisten dalam penamaan apakah menggunakan gaya [Camel](https://en.wikipedia.org/wiki/Camel_case) atau [Snake](https://en.wikipedia.org/wiki/Snake_case). Pada kasus-kasus yang khusus gunakan *underscore* diawal nama variabel.\
+Dalam membuat nama sebuah variabel,  pilihlah yang memiliki makna. Hindari menggunakan singkatan karena bila bekerja dengan tim, anggota lain akan kebingungan membaca kode. Konsisten dalam penamaan apakah menggunakan gaya [Camel](https://en.wikipedia.org/wiki/Camel_case) atau [Snake](https://en.wikipedia.org/wiki/Snake_case). Pada kasus-kasus yang khusus gunakan *underscore* diawal nama variabel.
+
 Python memiliki beberapa tipe data yaitu :
 <table>
 <thead>
@@ -52,3 +53,11 @@ Python memiliki beberapa tipe data yaitu :
 </tr>
 </tbody>
 </table>
+
+## 2. List
+Seorang *data scientist*, akan berhubungan dengan banyak poin data; sebagai contoh:data tinggi badan anggota dalam sebuah keluarga. Untuk menampung data tinggi anggota keluarga, Python menyediakan list seperti contoh kode 1.2.
+#### Contoh Kode 1.2
+```python
+family = [1.73,1.68,1.71,1.89]	
+print(family)
+```
