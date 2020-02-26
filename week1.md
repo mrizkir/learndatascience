@@ -81,3 +81,33 @@ print(family)
 ```
 
 Python menyediakan berbagai operasi untuk memanipulasi List seperti berikut ini :
+### 2.1 Menambah Elemen Baru
+Elemen baru dapat ditambahkan pada List dengan perintah bawaan Python yaitu `append()`.  Contoh kode 1.5 terdapat tuple. Tuple mirip dengan List perbedaannya elemennya tidak bisa diubah.
+
+#### Contoh Kode 1.5
+```python
+_list = []
+print ("Initial blank list : ")
+print (_list)
+
+# Menambah elemen ke _list
+_list.append(10.40)
+_list.append(78.9)
+_list.append(15)
+_list.append("Toward to Data Science")
+print ("_list setelah ditambah 4 elemen baru")
+print (_list)
+
+# Menambah elemen pada _list dengan pengulangan
+
+for i in range(10,14):
+    _list.append(i)
+
+print ("_list setelah ditambah 4 elemen baru dengan pengulangan for")
+print (_list)
+
+# Menambah tuple pada _list
+_list.append((99,100))
+print ("_list setelah ditambah 1 elemen tuple baru")
+print (_list)
+```
