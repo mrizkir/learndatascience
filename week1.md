@@ -64,6 +64,20 @@ print(family)
 Nilai atau elemen dalam satu List bisa memiliki beberapa macam tipe data, seperti float, integer, boolean,  string; atau yang lebih lanjutnya bisa menyimpan List lain, seperti contoh Kode 1.3.
 #### Contoh Kode 1.3
 ```python
-family = [1.73,1.68,1.71,1.89]	
+family = ["Rizki",1.73, "Heni", 1.68, "Hafidz", 1.71, "Azzam", 1.89]
 print(family)
 ```
+Python juga mendukung Sub List yang merupakan sebuah elemen List di dalam List lain, ditulis dengan square brackets di ikuti dengan koma, bentuknya  seperti contoh kode 1.4 yang memiliki 4 Sub List.
+#### Contoh Kode 1.4
+```python
+family = [
+            ["Rizki",1.73], 
+            ["Heni", 1.68], 
+            ["Hafidz", 1.71], 
+            ["Azzam", 1.89]
+        ]
+
+print(family)
+```
+
+Python menyediakan berbagai operasi untuk memanipulasi List seperti berikut ini :
