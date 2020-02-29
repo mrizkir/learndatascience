@@ -126,7 +126,7 @@ print(List)
 ```
 
 ### 2.2 Menyisipkan Elemen Baru
-Fungsi `append()` menambahkan elemen di akhir List; sedangkan untuk menyisipkan di antaran elemen dalam List, menggunakan fungsi `insert()` seperti contoh kode 1.6.
+Fungsi `append()` menambahkan elemen di akhir List; sedangkan untuk menyisipkan di antaran elemen dalam List, menggunakan fungsi `insert()` seperti contoh kode 1.7.
 
 #### Contoh Kode 1.7
 ```python
