@@ -112,4 +112,18 @@ print ("_list setelah ditambah 1 elemen tuple baru")
 print (_list)
 ```
 ### 2.2 Menyisipkan Elemen Baru
-Fungsi `append()` menambahkan elemen di akhir List; sedangkan untuk menyisipkan di antaran elemen dalam List, menggunakan fungsi `insert()`.
+Fungsi `append()` menambahkan elemen di akhir List; sedangkan untuk menyisipkan di antaran elemen dalam List, menggunakan fungsi `insert()` seperti contoh kode 1.6.
+
+#### Contoh Kode 1.5
+```python
+List = [1,2,3,4] 
+print("Initial List: ") 
+print(List) 
+  
+
+List.insert(3, 12) 
+List.insert(0, 'Geeks') 
+print("\nList after performing Insert Operation: ") 
+print(List) 
+```
+
