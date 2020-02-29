@@ -113,9 +113,8 @@ print (_list)
 ```
 
 Fungsi `extends()` menambah beberapa elemen sekaligus ke dalam List seperti contoh kode 1.6
-```python
-
 #### Contoh Kode 1.6
+```python
 # Creating a List 
 List = [1,2,3,4] 
 print("Initial List: ") 
