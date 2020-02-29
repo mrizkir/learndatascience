@@ -144,6 +144,7 @@ print(List)
 ### 2.3 Menghapus Elemen dari List
 Elemen dapat dihapus dari List menggunakan fungsi `remove()`. Pesan error akan muncul, bila elemen tidak ada dalam himpunan. Fungsi `remove()` akan menghapus elemen satu per satu meskipun ada elemen yang sama dalam himpunan; bila ingin menghapus beberapa elemen sekaligus gunakan pengulangan seperti contoh kode 1.8
 
+#### Contoh Kode 1.8
 ```python
   
 # membuat himpunan 
