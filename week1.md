@@ -54,8 +54,8 @@ Python memiliki beberapa tipe data yaitu :
 </tbody>
 </table>
 
-## 2. List
-Seorang *data scientist*, akan berhubungan dengan banyak poin data; sebagai contoh:data tinggi badan anggota dalam sebuah keluarga. Untuk menampung data tinggi anggota keluarga, Python menyediakan list seperti contoh kode 1.2.
+## 2. List (Himpunan)
+Seorang *data scientist*, akan berhubungan dengan banyak poin data; sebagai contoh:data tinggi badan anggota dalam sebuah keluarga. Untuk menampung data tinggi anggota keluarga, Python menyediakan List atau himpunan seperti contoh kode 1.2.
 #### Contoh Kode 1.2
 ```python
 family = [1.73,1.68,1.71,1.89]	
@@ -141,3 +141,5 @@ print("\nList after performing Insert Operation: ")
 print(List) 
 ```
 
+### 2.3 Menghapus Elemen dari List
+Elemen dapat dihapus dari List menggunakan fungsi `remove()`. Pesan error akan muncul, bila elemen tidak ada dalam himpunan.
