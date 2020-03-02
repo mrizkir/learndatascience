@@ -32,7 +32,7 @@ Materi Pembelajaran Data Science ini menggunakan bahasa pemrograman Python versi
 
    ​		3.2.1. [Membaca, mengakses, dan mengeksplor data](https://github.com/mrizkir/learndatascience/blob/master/3_libraries_untuk_data_science/2_pandas/1_membaca_mengakses_data.ipynb)
 
-   ​		3.2.2. Memodifikasi data (menghapus, mengubah kolom, meng-handle *missing values*, duplikasi) 
+   ​		3.2.2. [Memodifikasi data (menghapus, mengubah kolom, meng-handle *missing values*, duplikasi)](https://github.com/mrizkir/learndatascience/blob/master/3_libraries_untuk_data_science/2_pandas/2_memodifikasi_data.ipynb) 
 
    ​		3.2.3. Mengubah bentuk data, menggabungkan data dari berbagai sumber, meringkas data
 
