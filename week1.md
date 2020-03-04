@@ -92,6 +92,26 @@ Operator `%` digunakan untuk melakukan format pada sebuah string, dengan cara me
 - `%x`: heksadesimal
 - `%e`: eksponensial
 
+Contoh kode 1.5 mendemonstrasikan penggunaan operator `%` pada string.
+#### Contoh kode 1.5
+```python
+
+string1 = 'World'
+string2 = '!'
+print('Hello' + string1 + string2)
+print("Hello %s" % string1)
+print("Actual Number = %d" %18)
+print("Float of the number = %f" %18)
+print("Octal equivalent of the number = %o" %18)
+print("Hexadecimal equivalent of the number = %x" %18)
+print("Exponential equivalent of the number = %e" %18)
+```
+Ketika merujuk ke lebih dari satu variabel,gunakan tanda kurung. Nilai-nilai disisipkan sesuai dengan urutan di dalam tanda kurung seperti contoh kode 1.6
+#### Contoh kode 1.6
+```python
+print("Hello %s%s The meaning of life is %d" % (string1, string2, 42))
+```
+
 ## 2. List (Himpunan)
 Seorang *data scientist*, akan berhubungan dengan banyak poin data; sebagai contoh:data tinggi badan anggota dalam sebuah keluarga. Untuk menampung data tinggi anggota keluarga, Python menyediakan List atau himpunan seperti contoh kode 1.2.
 #### Contoh Kode 1.2
