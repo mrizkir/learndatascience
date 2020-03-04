@@ -53,7 +53,7 @@ Python memiliki beberapa tipe data yaitu :
 </tbody>
 </table>
 
-## 1.1 String
+## 2 String
 Fungsi `print()` mencetak seluruh argumennya sebagai string, dipisahkan dengan spasi dan diikuti dengan sebuah line break (`\n`) seperti contoh kode 1.2.
 #### Contoh Kode 1.2
 ```python
@@ -69,6 +69,15 @@ print("Hello", name)
 Fungsi print() memiliki argumen opsional untuk mengontrol di mana dan bagaimana statemen yang diberikan akan dicetak. Di antaranya adalah:
 - `sep`, yaitu pemisah antar kata (nilai *default*-nya adalah spasi)\n
 - `end`, yaitu karakter yang akan ditambahkan di akhir statemen (nilai *default*-nya adalah `\\n` (karakter *newline*))
+
+Contoh kode 1.3 menunjukan penggunaan parameter sep dan end.
+#### Contoh Kode 1.3
+```python
+print("Hello", "World", sep="...", end="!!")
+```
+
+### 2.1 String
+
 
 ## 2. List (Himpunan)
 Seorang *data scientist*, akan berhubungan dengan banyak poin data; sebagai contoh:data tinggi badan anggota dalam sebuah keluarga. Untuk menampung data tinggi anggota keluarga, Python menyediakan List atau himpunan seperti contoh kode 1.2.
