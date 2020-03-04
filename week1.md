@@ -76,8 +76,21 @@ Contoh kode 1.3 menunjukan penggunaan parameter sep dan end.
 print("Hello", "World", sep="...", end="!!")
 ```
 
-### 2.1 String
-
+### 2.1 Mengatur Format String
+Ada banyak metode yang dapat digunakan untuk mengatur format dan memanipulasi string. *String concatenation* adalah penggabungan dari dua string. Perhatikan bahwa saat melakukan penggabungan, tidak ada spasi di antara kedua string seperti contoh kode 1.4.
+#### Contoh kode 1.4
+```python
+string1 = 'World'
+string2 = '!'
+print('Hello' + string1 + string2)
+```
+Operator `%` digunakan untuk melakukan format pada sebuah string, dengan cara menyisipkan nilai yang disertakan setelahnya. String tersebut harus memiliki penanda yang mengidentifikasikan di mana harus menyisipkan nilai tersebut. Penanda yang sering digunakan adalah:
+- `%s`: string,
+- `%d`: integer,
+- `%f`: float,
+- `%o`: oktal,
+- `%x`: heksadesimal
+- `%e`: eksponensial
 
 ## 2. List (Himpunan)
 Seorang *data scientist*, akan berhubungan dengan banyak poin data; sebagai contoh:data tinggi badan anggota dalam sebuah keluarga. Untuk menampung data tinggi anggota keluarga, Python menyediakan List atau himpunan seperti contoh kode 1.2.
