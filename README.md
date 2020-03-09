@@ -38,4 +38,4 @@ Materi Pembelajaran Data Science ini menggunakan bahasa pemrograman Python versi
 
    3.3. Matplotlib
 
-   ​		3.3.1. [Visualisasi Data Menggunakan Python dan Matplotlib](https://github.com/mrizkir/learndatascience/commit/9f6efb55879535b7d63abfbe70d75177526cca2e)
+   ​		3.3.1. [Visualisasi Data Menggunakan Python dan Matplotlib](https://github.com/mrizkir/learndatascience/blob/master/3_libraries_untuk_data_science/3_matplotlib/Visualisasi%20Data%20Menggunakan%20Python%20dan%20Matplotlib.ipynb)
